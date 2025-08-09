@@ -4,7 +4,7 @@ import { Text, View } from "react-native";
 export default function Index() {
   return (
     <View className="flex-1 items-center justify-center">
-      <Text className="font-bold text-lg bg-green-600 my-10">
+      <Text className="font-bold bg-green-600 my-10 font-rubik text-3xl">
         Welcome to Real Estate App
       </Text>
       <Link href={"/sign-in"}>Sign In</Link>
