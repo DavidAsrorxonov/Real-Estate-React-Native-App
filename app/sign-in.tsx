@@ -12,7 +12,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const SignIn = () => {
+export default function SignIn() {
   const handleLogin = async () => {
     try {
       const result = await Login();
@@ -70,6 +70,4 @@ const SignIn = () => {
       </ScrollView>
     </SafeAreaView>
   );
-};
-
-export default SignIn;
+}
